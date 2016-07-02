@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.duran.prjtestvocabularygame.HowToPlay"
+    tools:showIn="@layout/activity_how_to_play"
+    android:background="#5f8af6">
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_how_to_play"
+        android:id="@+id/tvHowToPlay"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        style="@style/textFont"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/tvHowToPlay">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtData"
+            android:textAlignment="center"
+            android:layout_below="@+id/tvHowToPlay"
+            android:layout_centerHorizontal="true"
+            style="@style/textFont"/>
+    </ScrollView>
+
+</RelativeLayout>

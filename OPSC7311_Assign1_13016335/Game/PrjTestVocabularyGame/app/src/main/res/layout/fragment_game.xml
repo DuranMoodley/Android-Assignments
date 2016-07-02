@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.duran.prjtestvocabularygame.FragmentGame">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSecondLetter"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFirstLetter"
+        android:layout_gravity="left|top"
+        android:singleLine="false"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnThirdButton"
+        android:layout_gravity="right|top"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="25sp" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chBtuttonTimer"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</FrameLayout>
