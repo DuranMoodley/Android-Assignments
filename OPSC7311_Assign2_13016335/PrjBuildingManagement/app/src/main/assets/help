@@ -1,0 +1,22 @@
+This application can insert, delete, update and display all tenant information.
+This application can also insert and display all incidents in the building.
+
+Insert
+This is easily done by simply adding the relevant data in each field.
+Please make sure that all fields are entered.
+Id number must be 11 digits and Phone numbers must be 10 digits.
+Error messages will be displayed if the above is not followed correctly
+
+Update
+You need to first search for the Tenant by entering in their id number.
+If not found no data will be shown.
+Once the Tenant has been found, you may now update the relevant information.
+Please follow the same processes as in the Insert section.
+
+Delete
+The Tenant's id number is required for this operation to be executed.
+If the id number is not in the database, an error will be shown.
+Please make sure that the right id number is entered.
+
+Display
+All the information will be shown in a list.

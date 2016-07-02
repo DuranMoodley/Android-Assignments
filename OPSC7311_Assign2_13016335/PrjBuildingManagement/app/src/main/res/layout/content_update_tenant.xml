@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.moodley.duran.prjbuildingmanagement.UpdateTenant"
+    tools:showIn="@layout/activity_update_tenant"
+    android:orientation="vertical"
+    android:background="#0eedd3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtId"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_id" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_search"
+        android:id="@+id/btnSearch"
+        android:onClick="searchButtonClick"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtName"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_name"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtNumOccupants"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_occupants"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtContactNum"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_contact_number"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtEmergency"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_emergency_contact"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtFlatNum"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_flat_number"
+        android:visibility="invisible" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_update"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:onClick="updateButtonClick"/>
+</LinearLayout>

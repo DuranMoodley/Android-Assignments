@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.moodley.duran.prjbuildingmanagement.AddTenant"
+    tools:showIn="@layout/activity_add_tenant"
+    android:orientation="vertical"
+    android:background="#0eedd3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtName"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtIdNumber"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_id_number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtNumberOfOccupants"
+        android:layout_gravity="right"
+        android:hint="@string/hint_number_occupants" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtPhoneNumber"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_phone_number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtEmergencyContact"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_emergency_contact" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtFlatNumber"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_flat_number" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_submit"
+        android:id="@+id/btnSubmit"
+        android:layout_gravity="center_horizontal"
+        android:onClick="submitButtonClick"/>
+
+</LinearLayout>
