@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Catch The Dot</string>
+    <string name="title_activity_game_play">Game Play</string>
+    <string name="title_activity_how_to_pay">How To Pay</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_about_liv">About LIV</string>
+    <string name="title_activity_about_liv_heading">Why We Exist</string>
+    <string name="title_activity_about_liv_creditation">Creditability</string>
+    <string name="title_activity_about_liv_website">http://www.liv-village.com/about/</string>
+    <string name="title_donate_website">http://www.liv-village.com/donate/</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="title_activity_volunteer">Volunteer Your Skills</string>
+    <string name="title_activity_corporate_team_building">Corporate team building days</string>
+    <string name="title_our_webpage">For More Information Visit:</string>
+    <string name="title_donate_text_message">SMS LIV to 42337 and donate R20 to LIV
+                                             TEXT CHNG11 £5 to 70070 and donate £5 to LIV</string>
+    <string name="donate_via_text_message">Donate Via Text Message</string>
+    <string name="direct_deposit">Direct Deposit</string>
+    <string name="donate_good_information">We are always in need of clothing, household goods, items for the school, sports facilities and play. For more information, contact us.</string>
+    <string name="volunteer_information">Medical, Ministry, Teaching, Sports coaching, you name it, we need it. Volunteer for long or short term opportunities.</string>
+    <string name="volunteer_webpage">http://www.liv-village.com/volunteer/</string>
+    <string name="corporate_team_building_details">LIV provides an excellent social investment opportunity as a corporate group on the Village as well as into the local community.</string>
+    <string name="corporate_team_website">http://www.liv-village.com/corporate-team-building/</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="contact_details">We would love to hear from you. Better yet, why not pay us a visit?</string>
+    <string name="call_us_contact">Call Us</string>
+    <string name="call_us_phone_one">+27 32 007 0571</string>
+    <string name="call_us_phone_two">+27 82 528 3071</string>
+    <string name="call_us_uk">UK OFFICE:+44 121 272 7259</string>
+    <string name="contact_us_website">http://www.liv-village.com/contact-us/</string>
+    <string name="email_us">Email Us</string>
+    <string name="email_address">info@liv-village.com</string>
+    <string name="uk_email">UK OFFICE:uk.info@liv-village.com</string>
+    <string name="find_us_liv">Find us</string>
+    <string name="player_start_message">Select Play Game to Start Playing</string>
+    <string name="error_message">A problem has occurred please try again or reinstall the app and use another Valid Email Address</string>
+    <string name="title_activity_world_rankings">World Rankings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="score_saved_successfully">Score Updated Successfully</string>
+    <string name="error_message_score_not_updated">A Problem Has Occurred. Please Make Sure Your Internet/Wifi is on. Your Score Will be Updated Later</string>
+    <string name="wait_message">Please Wait.....</string>
+    <string name="fifty_awarded_points">50 Bonus Points Awarded</string>
+    <string name="twenty_awarded_points">20 Bonus Points For Meeting the Target</string>
+    <string name="time_complete">Your Time is up</string>
+    <string name="donate_goods">Donate Goods</string>
+    <string name="drag_your_finger_to_play">Drag Your Finger to Play</string>
+    <string name="target_value">Target:</string>
+    <string name="score">Score</string>
+    <string name="help">Help</string>
+    <string name="total_dots_caught">Total Points Achieved:</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="save_button_text">Save</string>
+    <string name="liv_app_bar_title">LIV</string>
+    <string name="web_link">www.liv-village.com</string>
+    <string name="get_in_touch">Get In Touch</string>
+    <string name="get_involved">Get Involved</string>
+    <string name="help_liv">Help LIV</string>
+    <string name="error_insert_email">Please Insert an Email Address</string>
+    <string name="email_insert_valid_address">Please Insert a Valid Email Address</string>
+    <string name="liv_image">LIV Image</string>
+    <string name="error_world_rankings">A Problem has occurred. Please Try Again later.</string>
+</resources>

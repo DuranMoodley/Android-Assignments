@@ -1,0 +1,22 @@
+http://www.tutorialspoint.com/android/android_sending_sms.html
+
+http://stackoverflow.com/questions/2468100/android-listview-click-howto
+
+Data picker code: You tube video Android tutorial for begginners 27#: Android Date picker dialog https://youtu.be/czKLAx750N0
+
+http://stackoverflow.com/questions/26525229/toolbar-navigation-icon-never-set
+
+http://stackoverflow.com/questions/10081631/android-cursor-movetonext
+
+http://stackoverflow.com/questions/26440279/show-icon-in-actionbar-toolbar-with-appcompat-v7-21
+
+https://developer.android.com/guide/topics/resources/string-resource.html#FormattingAndStyling
+
+http://stackoverflow.com/questions/18302603/where-to-place-assets-folder-in-android-studio
+
+https://youtu.be/BkazaAeeW1Q Expandable view
+
+
+
+
+

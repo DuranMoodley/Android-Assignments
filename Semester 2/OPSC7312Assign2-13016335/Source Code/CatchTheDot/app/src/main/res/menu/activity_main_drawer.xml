@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_live"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/title_activity_about_liv" />
+    </group>
+
+    <item android:title="@string/help_liv">
+        <menu>
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/donation"
+                android:title="@string/title_activity_donate" />
+            <item
+                android:id="@+id/nav_volunteer_program"
+                android:icon="@drawable/volunteerprogram"
+                android:title="@string/title_activity_volunteer" />
+        </menu>
+    </item>
+
+    <item android:title="@string/get_involved">
+        <menu>
+            <item
+                android:id="@+id/nav_corporate_team_building"
+                android:icon="@drawable/ourteam"
+                android:title="@string/title_activity_corporate_team_building" />
+        </menu>
+    </item>
+    <item android:title="@string/title_activity_contact_us">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="@string/get_in_touch" />
+        </menu>
+    </item>
+</menu>

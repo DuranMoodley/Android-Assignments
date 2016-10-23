@@ -1,0 +1,14 @@
+This application is aimed at keeping track of all events done by the Play House.
+Using this application is very simple.
+
+Selecting the Add event option will allow the user to enter in all details about that event.
+Please make sure that all fields are entered. No field should be blank.
+Secondly, a contact number must contain 10 digits.
+An error message will display if something is not entered in correctly
+
+Selecting the show event will display all events up to date.
+
+Selecting the send email will allow the user to write out the email message.
+Tapping the send button, will re-direct the user to an email application (Gmail) of their choosing.
+
+Contact the developer : Duran Moodley on 071 355 8911 for additional help

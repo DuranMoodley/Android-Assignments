@@ -1,0 +1,15 @@
+Note to Lecturer 
+
+All Images are from Pixaby
+Sources that were used are : 
+	Stackoverflow
+	Android Developer
+	Prescribed Text book for module 
+	Advanced Android development Book
+	Youtube Video (Bucky and Travis)
+
+An out of memory error does occur in the application. 
+I do need help in identifying where the error lies and how to fix.
+Please help.
+Overall the game does work.
+

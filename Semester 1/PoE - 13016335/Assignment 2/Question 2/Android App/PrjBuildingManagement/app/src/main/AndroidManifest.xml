@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moodley.duran.prjbuildingmanagement">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_building"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MenuScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddTenant"
+            android:label="@string/title_activity_add_tenant"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateTenant"
+            android:label="@string/title_activity_update_tenant"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeleteTenant"
+            android:label="@string/title_activity_delete_tenant"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowTenant"
+            android:label="@string/title_activity_show_tenant"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddIncident"
+            android:label="@string/title_activity_add_incident"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowIncidents"
+            android:label="@string/title_activity_show_incidents"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendSms"
+            android:label="@string/title_activity_send_sms"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MenuScreen"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

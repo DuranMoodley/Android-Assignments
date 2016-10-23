@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.moodley.duran.prjbuildingmanagement.AddIncident"
+    tools:showIn="@layout/activity_add_incident"
+    android:orientation="vertical"
+    android:background="@color/colorMyBackground">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/edtIncidentDescription"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_add_description" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtTenantIdNumb"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_tenant_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtDate"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_date"
+        android:onClick="dateButton"
+        android:focusable="false"
+        android:inputType="date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTime"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/title_time"
+        android:onClick="timeButton"
+        android:focusable="false"
+        android:inputType="time" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/rgbRating">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_radio_button_minor"
+            android:id="@+id/rdMinor"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_radio_button_major"
+            android:id="@+id/rdMajor"
+            android:checked="false" />
+    </RadioGroup>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_submit"
+        android:id="@+id/btnSubmitIncident"
+        android:layout_gravity="center_horizontal"
+        android:onClick="submitIncidentClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_show_incidents"
+        android:id="@+id/btnShowIncidents"
+        android:onClick="showIncidentButtonClick"/>
+
+</LinearLayout>

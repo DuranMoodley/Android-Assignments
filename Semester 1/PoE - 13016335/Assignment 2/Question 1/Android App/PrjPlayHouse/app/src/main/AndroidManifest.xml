@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moodley.duran.prjplayhouse">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_drama_faces"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.MenuScreenPlayHouse"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.AddActivity"
+            android:label="@string/title_add_event"
+            android:parentActivityName="myassignment.moodley.duran.prjplayhouse.MenuScreenPlayHouse"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.ShowEventDetails"
+            android:label="@string/title_show_event"
+            android:parentActivityName="myassignment.moodley.duran.prjplayhouse.MenuScreenPlayHouse"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.SendEmail"
+            android:label="@string/title_activity_send_email"
+            android:parentActivityName="myassignment.moodley.duran.prjplayhouse.MenuScreenPlayHouse"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.Help"
+            android:label="@string/title_activity_help"
+            android:parentActivityName="myassignment.moodley.duran.prjplayhouse.MenuScreenPlayHouse"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="myassignment.moodley.duran.prjplayhouse.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
